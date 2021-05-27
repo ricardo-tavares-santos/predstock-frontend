@@ -19,3 +19,11 @@ git clone https://github.com/olinations/predstock-frontend.git
 ```
 npm install
 ```
+
+**3. Start **
+
+```
+npm start
+```
+
+Cors is setup to allow requests from localhost:3001 (backend should be running on Port 3000). This will need to be changed when in production or if you are running your frontend from a different port in dev.
