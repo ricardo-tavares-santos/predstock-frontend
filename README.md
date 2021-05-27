@@ -20,7 +20,7 @@ git clone https://github.com/olinations/predstock-frontend.git
 npm install
 ```
 
-**3. Start **
+**3. Start**
 
 ```
 npm start
