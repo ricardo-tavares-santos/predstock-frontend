@@ -43,15 +43,22 @@ class App extends Component {
   componentDidMount(){
     this.getItems()
   }
+  
+  yahoo(){
+    window.open('https://finance.yahoo.com/lookup');
+  }
 
   render() {
     return (
       <Container className="App">
         <Row>
           <Col>
-            <h1 style={{margin: "20px 0"}}>Company Database</h1>
+            <h1 style={{margin: "20px 0"}}>Company Database</h1> 
           </Col>
-        </Row>
+		  <Col style={{margin: "20px 0"}}>
+		    <button onClick={() => this.yahoo()}> Yahoo Finance </button>
+		  </Col>
+        </Row>	
         <Row>
           <Col>
             <DataTable items={this.state.items} updateState={this.updateState} deleteItemFromState={this.deleteItemFromState} />
