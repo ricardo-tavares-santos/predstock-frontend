@@ -11,7 +11,7 @@ It uses react-csv to create the CSV download button.
 **1. Clone this repo**
 
 ```
-git clone https://github.com/olinations/predstock-frontend.git
+git clone https://github.com/ricardo-tavares-santos/predstock-frontend.git
 ```
 
 **2. NPM install React and dependencies**
