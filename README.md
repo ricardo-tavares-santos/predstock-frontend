@@ -1,4 +1,4 @@
-# predstock Frontend
+# predstock frontend
 
 This is the React frontend that goes with the [predstock API backend](https://github.com/ricardo-tavares-santos/predstock-api). 
 
